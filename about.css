@@ -1,0 +1,76 @@
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6f00;
+}
+p{
+    text-align:center;
+}
+img{
+    margin-bottom: auto;
+}
+h2{
+    text-align: center;
+}
+.about-section{
+    border: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.img{
+    display: flex;
+    width: 50%;
+    padding-left: 28%;
+    height: 50%;
+    display: inline-flex;
+    align-items: center;
+   
+}
+
+.container{
+
+    align-content: end;
+  
+
+}
+body{
+    background: linear-gradient(rgba(248, 112, 112, 0.5), rgba(242, 242, 242, 0.863)), url('/assettwo/a_logo.png') center/cover no-repeat fixed;
+    min-height: 65vh;
+}
+*{
+    color: rgb(20, 19, 19);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+}
